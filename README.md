@@ -48,4 +48,8 @@ sudo cp -R dist/public/gtk/play-dark/gtk.css /usr/share/themes/Play/gtk-3.0/
 ```
 
 **DONE!**
+
 Select the theme (Play) with GNOME Tweak Tool
+
+## Info
+When you test themes, test them with GTK Inspector. So basically do not pick this theme from Tweak Tool, because it is totally unusable, and you may not even be able revert :p
