@@ -1,0 +1,32 @@
+{
+  "name": "gnome-play-theme",
+  "description": "Play theme for GNOME",
+  "version": "0.1.0",
+  "keywords": [
+    "css",
+    "sass",
+    "gnome",
+    "gtk",
+    "theme",
+  ],
+  "homepage": "http://wogue.org",
+  "author": "alexis285",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alex285/gnome-play-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alex285/gnome-play-theme/issues"
+  },
+  "license": "MIT",
+  "dependencies" : {
+    "node-sass": "^3.8.0",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.3.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}

@@ -1,0 +1,84 @@
+//_variables.scss
+
+//Table of contents
+//
+//1. COLORS
+
+
+// Extra colors
+$accent-color:                      #ee0088;
+
+//
+// Default Adwaita Color Names with hyphen (-) instead underscore (_)
+// We keep original names from Adwaita for convinience
+// https://git.gnome.org/browse/gtk+/tree/gtk/theme/Adwaita/_colors.scss
+//
+
+$base-color:                        #000000; // #1d1d1d alternative
+$text-color:                        #ffffff;
+$bg-color:                          #000000;
+$fg-color:                          #ffffff;
+$selected-fg-color:                 #ffffff;
+$selected-bg-color:                 lighten($bg-color, 5%);
+$selected-borders-color:            $accent-color;
+$borders-color:                     $accent-color;
+$alt-borders-color:                 $accent-color;
+$borders-edge:                      $accent-color;
+$link-color:                        #0078d1;
+$link-visited-color:                #0078d1;
+$top-hilight:                       #accent-color;
+$dark-fill:                         #1d1d1d;
+$headerbar-color:                   $accent-color; // or base?
+$menu-color:                        $base-color;
+$popover-bg-color:                  $bg_color;
+$popover-hover-color:               lighten($bg-color, 5%);
+$scrollbar-bg-color:                lighten($bg-color, 5%);
+$scrollbar-slider-color:            $accent-color;
+$scrollbar-slider-hover-color:      $accent-color;
+$scrollbar-slider-active-color:     $accent-color;
+
+
+$warning-color:                     #ff8a2e;
+$error-color:                       #f3112e;
+$success-color:                     #008846;
+$destructive-color:                 #6d6ad0;
+
+
+$osd-fg-color:                      #ffffff;
+$osd-text-color:                    #ffffff;
+$osd-bg-color:                      $bg-color;
+$osd-insensitive-bg-color:          $bg-color;
+$osd-insensitive-fg-color:          lighten($bg-color, 10%);
+$osd-borders-color:                 $accent-color;
+
+$sidebar-bg-color:                  $bg-color;
+$base-hover-color:                  $text-color;
+$tooltip-borders-color:             $accent-color;
+$shadow-color:                      transparentize($bg-color, 0.9);
+
+
+$drop-target-color:                 $success-color;
+
+
+$insensitive-fg-color:              lighten($bg-color, 10%);
+$insensitive-bg-color:              $bg-color;
+$insensitive-borders-color:         $borders-color;
+
+//backdrop colors, we dont use them anyway, just for reference
+
+/*
+$backdrop_base_color:              $base-color;
+$backdrop_text_color:              $base-color;
+$backdrop_bg_color:                $base-color;
+$backdrop_fg_color:                $base-color;
+$backdrop_insensitive_color:       $base-color;
+$backdrop_selected_fg_color:       $base-color;
+$backdrop_borders_color:           $base-color;
+$backdrop_dark_fill:               $base-color;
+$backdrop_sidebar_bg_color:        $base-color;
+
+$backdrop_scrollbar_bg_color:      $base-color;
+$backdrop_scrollbar_slider_color:  $base-color;
+
+$backdrop_menu_color:              $base-color;
+*/
