@@ -26,7 +26,7 @@ $alt-borders-color:                 $accent-color;
 $borders-edge:                      $accent-color;
 $link-color:                        #0078d1;
 $link-visited-color:                #0078d1;
-$top-hilight:                       #accent-color;
+$top-hilight:                       $accent-color;
 $dark-fill:                         #1d1d1d;
 $headerbar-color:                   $accent-color; // or base?
 $menu-color:                        $base-color;
@@ -64,21 +64,20 @@ $insensitive-fg-color:              lighten($bg-color, 10%);
 $insensitive-bg-color:              $bg-color;
 $insensitive-borders-color:         $borders-color;
 
-//backdrop colors, we dont use them anyway, just for reference
+//We dont use backdrop colors, but we need them for PUBLIC COLORS! Pff
 
-/*
+
 $backdrop_base_color:              $base-color;
-$backdrop_text_color:              $base-color;
-$backdrop_bg_color:                $base-color;
-$backdrop_fg_color:                $base-color;
+$backdrop_text_color:              $text-color;
+$backdrop_bg_color:                $bg-color;
+$backdrop_fg_color:                $fg-color;
 $backdrop_insensitive_color:       $base-color;
 $backdrop_selected_fg_color:       $base-color;
-$backdrop_borders_color:           $base-color;
-$backdrop_dark_fill:               $base-color;
-$backdrop_sidebar_bg_color:        $base-color;
+$backdrop_borders_color:           $borders_color;
+$backdrop_dark_fill:               $dark-fill;
+$backdrop_sidebar_bg_color:        $sidebar-bg-color;
 
-$backdrop_scrollbar_bg_color:      $base-color;
-$backdrop_scrollbar_slider_color:  $base-color;
+$backdrop_scrollbar_bg_color:      $scrollbar-bg-color;
+$backdrop_scrollbar_slider_color:  $scrollbar-slider-color;
 
-$backdrop_menu_color:              $base-color;
-*/
+$backdrop_menu_color:              $menu-color;
